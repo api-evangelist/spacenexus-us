@@ -1,4 +1,4 @@
-# spacenexus-us
+# SpaceNexus
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-spacenexus-us is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://spacenexus.us/
+SpaceNexus is a space‑industry intelligence platform that aggregates launch schedules, rocket data, satellite tracking, market analytics, and regulatory insights. It provides daily newsletters, AI‑driven analysis, and a searchable directory of missions, companies, and datasets for professionals and enthusiasts.
+
+**Areas:** Space · Data · Analytics · Launches · Market
+
+## SpaceNexus on APIs.io
+
+Everything profiled for SpaceNexus is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/spacenexus-us/](https://apis.io/providers/spacenexus-us/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [SpaceNexus API](https://apis.io/apis/spacenexus-us/spacenexus-api/) — API reference for SpaceNexus providing launch schedules, rocket data, satellite tracking, and market analytics.
+- [SpaceNexus API](https://apis.io/apis/spacenexus-us/spacenexus-us-api/) — SpaceNexus API as documented publicly: 28 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1CompaniesResponse](https://apis.io/schemas/spacenexus-us/spacenexus-us-get-api-v1-companies-response/)
+- [GetApiV1SatellitesResponse](https://apis.io/schemas/spacenexus-us/spacenexus-us-get-api-v1-satellites-response/)
+- [GetExecutiveMovesResponse](https://apis.io/schemas/spacenexus-us/spacenexus-us-get-executive-moves-response/)
+- [GetRegulatoryResponse](https://apis.io/schemas/spacenexus-us/spacenexus-us-get-regulatory-response/)
+- [GetSpaceWeatherResponse](https://apis.io/schemas/spacenexus-us/spacenexus-us-get-space-weather-response/)
+- [GetSupplyChainResponse](https://apis.io/schemas/spacenexus-us/spacenexus-us-get-supply-chain-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Spacenexus Us Context](https://apis.io/jsonld/spacenexus-us/spacenexus-us-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SpaceNexus API Rules](https://apis.io/rules/spacenexus-us/spacenexus-us-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SpaceNexus Authentication](https://apis.io/security/spacenexus-us/spacenexus-us-authentication/)
+- [SpaceNexus Domain Security](https://apis.io/security/spacenexus-us/spacenexus-us-domain-security/)
+- [SpaceNexus Trust Center](https://apis.io/security/spacenexus-us/spacenexus-us-trust-center/)
+- [SpaceNexus Vulnerability Disclosure](https://apis.io/security/spacenexus-us/spacenexus-us-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SpaceNexus Plans Pricing](https://apis.io/plans/spacenexus-us/spacenexus-us-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://spacenexus.us/)
+- [Getting started](https://spacenexus.us/getting-started)
+- [API reference](https://spacenexus.us/developer/docs)
+- [Pricing](https://spacenexus.us/pricing)
+- [Sign up](https://spacenexus.us/register)
+- [Support](https://spacenexus.us/help)
+- [Changelog](https://spacenexus.us/releases)
+- [Blog](https://spacenexus.us/blog)
+- [Security](https://spacenexus.us/security)
+- [Terms of service](https://spacenexus.us/terms)
+- [Privacy policy](https://spacenexus.us/privacy)
+- [Status](https://spacenexus.us/status)
+
+## API Evangelist rating
+
+**Kin Score 61.7** — strong · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 81.1 |
+
+**Agent readiness 18.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/spacenexus-us/](https://apis.io/providers/spacenexus-us/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SpaceNexus: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/spacenexus-us/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
